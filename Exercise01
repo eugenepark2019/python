@@ -1,0 +1,51 @@
+#change paragraph.
+
+x = "Twinkle, twinke, little star,\n 
+How I wonder what you are!\n 
+Up above the world so high,\n 
+Like a diamond in the sky.\n 
+Twianke,twinke,little star,\n 
+How I wonder what you are"
+print(x);
+
+#python program to get the python version you are using.
+
+import sys
+print(sys.version_info)
+
+#python program to display the current date and time.
+
+import datetime
+now = datetime.datetime.now()
+print("currnet date and time:")
+print(now.strftime("%y-%m-%d %H:%M:%S"))
+
+#python program to display the first and last colors from the following list.
+
+color_list = ["Red","Green","White","Black"]
+print(color_list[0],color_list[-1])
+
+#python program which accepts the uswer's first namd last name and print them in reverse order with a space between them.
+
+fname =("Eugene")
+lname =("Park")
+print ("Hello" + lname + " " + fname)
+
+#python program to print the calendar of a given month and year.(use calendar module.)
+
+import calendar
+y = int("2019")
+m = int("07")
+print(calendar.month(y,m))
+
+#python program to display the examination schedule.
+exam_st_date = ("11/12/2014")
+print( "The examination will start from :"+(exam_st_date))
+
+#python program that accepts an integer(n)and computes the value of n+nn+nnn sample value of n is 5
+
+a=int("5")
+n1=int("%s" % a)
+n2=int("%s%s"%(a,a))
+n3=int("%s%s%s"%(a,a,a))
+print(n1+n2+n3)
