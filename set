@@ -1,4 +1,16 @@
 thisset=("apple","banana","cherry")
 print(thisset)
 print("banana" in thisset)
-thisset.add("orange")
+print(thisset)
+thisset.update(["orange","mango","grapes"])
+print(thisset)
+thisset.discasrd("banana")
+print(thisset)
+x= thisset.pop()
+print(x)
+
+print(thisset)
+thisset.clear()
+print(thisset)
+del thisset
+print(thisset)
