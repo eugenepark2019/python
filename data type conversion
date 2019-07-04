@@ -1,0 +1,32 @@
+x = abs(-7.25)
+print(x)
+
+x = bin(36)
+print(x)
+#The result will always have the prefix 0b
+
+x = bool(1)
+print(x)
+
+x = bytes(4)
+print(x)
+
+x = chr(97)
+print(x)
+
+x = divmod(5, 2)
+print(x)
+#Display the quotient and the remainder of 5 divided by 2:
+
+x = hex(255)
+print(x)
+
+x = max(5,10)
+print(x)
+
+x = min(5,10)
+print(x)
+
+x = pow(4,3)
+print(x)
+
