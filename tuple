@@ -1,0 +1,20 @@
+a='76'
+
+print(int(a,16))
+print(int(a,10))
+print(int(a,8))
+
+
+
+print("enter your name")
+x=("Eugene")
+print("Hello",x)
+
+thistuple=("apple","banana","cherry")
+print(thistuple)
+print(thistuple[1])
+#thistuple[1]="blackcurrant"
+print(thistuple)
+for x in thistuple:
+    print(x)
+    print(len(thistuple))
