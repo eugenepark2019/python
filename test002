@@ -1,0 +1,36 @@
+num = int(15)
+
+mod = num % 2
+if mod > 0:
+    print("This is an odd number.")
+else:
+    print("This is an even number.")
+
+number = int(16)
+mod = number % 2
+
+if mod == 0:
+    print("This is an even number")
+elif number % 4 == 0:
+    print("This is multiple of 4")    
+else:
+    print("This is an odd number")
+ 
+number = int(7)
+modf = number % 4
+if modf == 0:
+    print("This is multiple of 4")
+else:
+    print("This is not multiple of 4")
+
+##input
+name = input("enter your name")
+age = input("enter your age")
+
+print("hello" ,name, "you are",age, "you will turn")
+    
+check = int(input("enter a no"))
+if num% check == 0:
+    print(check,"divides evenly",num)
+else:
+    print(check,"doesn't divides evenly",num)
