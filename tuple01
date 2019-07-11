@@ -1,0 +1,15 @@
+# tuple 값을 바꿀수 없음  () 혹은 () 없이 , 로 나눠줄수 있음.
+my_tuple1= ()
+print(my_tuple1)
+
+my_tuple2= (1,)
+print(type(my_tuple2))
+
+my_tuple3= ('a','b','c')
+print(my_tuple3)
+
+my_tuple4= 3.14,'python',True
+print(my_tuple4)
+
+my_tuple5 = (1)
+print(type(my_tuple5))
