@@ -3,10 +3,10 @@ my_list2=[1,2,3]
 my_list3=['a','b']
 
 #.append() 뒤에 하나씩 추가하기
-my_list1.append(123)
+my_list1.append(123)         
 my_list1.append('abc')
 
-print(my_list1)
+print(my_list1)           ====>[123, 'abc']
 
 #index list 의 순서//값 대체하기
 my_list = [123,'abc',True]
@@ -14,12 +14,12 @@ my_list[0] = 3.14
 my_list[1] ='ABC'
 my_list[-1] = False
 
-print(my_list)
+print(my_list)             ============>[3.14, 'ABC', False]
 
 #del 값제거
 
 my_list = [123,'abc',True]
-del my_list[0]
+del my_list[0]          
 del my_list[1]
 
 print(my_list)
@@ -51,5 +51,5 @@ print(my_list3.count('s'))
 # in (my_list4)안에 있는가?? and not in (my_list4)안에 있는가?? ture or false로 답함
 
 my_list4 = ['a','b','f','s','t','c','g']
-print('a' in my_list4)
-print('v' in my_list4)
+print('a' in my_list4)                    =========>true
+print('v' in my_list4)                    =========>false
