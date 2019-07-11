@@ -1,0 +1,55 @@
+my_list1=[]            <----재료가 안들어간 냄비임요!!!
+my_list2=[1,2,3]
+my_list3=['a','b']
+
+#.append() 뒤에 하나씩 추가하기
+my_list1.append(123)
+my_list1.append('abc')
+
+print(my_list1)
+
+#index list 의 순서//값 대체하기
+my_list = [123,'abc',True]
+my_list[0] = 3.14
+my_list[1] ='ABC'
+my_list[-1] = False
+
+print(my_list)
+
+#del 값제거
+
+my_list = [123,'abc',True]
+del my_list[0]
+del my_list[1]
+
+print(my_list)
+
+# slicing 슬라이싱
+my_list = [123,'abc',True]
+
+print(my_list[:1])
+print(my_list[0:2])
+print(my_list[1:3])
+
+#.sort() 정렬하기
+
+my_list = [3,2,4,1]
+my_list.sort()
+print(my_list)
+
+my_list2 = ['a','b','f','s','t','c','g']
+my_list2.sort()
+print(my_list2)
+
+#.count() 입력값의 요소의 수량을 센다.
+
+my_list3 = ['a','b','f','s','a','c','g','a','b','f','s','t','c','g']
+print(my_list3.count('a'))
+print(my_list3.count('f'))
+print(my_list3.count('s'))
+
+# in (my_list4)안에 있는가?? and not in (my_list4)안에 있는가?? ture or false로 답함
+
+my_list4 = ['a','b','f','s','t','c','g']
+print('a' in my_list4)
+print('v' in my_list4)
