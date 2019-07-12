@@ -7,3 +7,15 @@ elif name == 'Ogo':
    print("Nice to meet you!!") 
 else:
    print("check your name again")
+   
+   if
+조건문을 표현하기 위해 if 키워드를 사용합니다.
+조건이 참인지 거짓인지에 따라 처리의 흐름을 바꿉니다.
+조건이 참일 경우 코드블록을 실행합니다.
+거짓일 경우 코드블록을 넘어갑니다.
+ 
+
+else와 elif
+if와 함께 사용할 수 있는 친구들입니다.
+else: 이전의 if나 elif가 모두 거짓일 경우 else로 넘어갑니다.
+elif: 이전의 if나 elif가 거짓일 경우 elif의 조건문으로 넘어갑니다.
