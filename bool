@@ -1,0 +1,23 @@
+my_bool01 = True
+print(my_bool01)
+
+my_bool02 = False
+print(my_bool02)
+
+my_bool03 = 1 < 2
+print(my_bool03)
+
+my_bool04 = 3 > 1
+print(my_bool04)
+
+my_cmp01 = 1 < 2
+print(my_cmp01)
+
+my_cmp02 = 1 == 2
+print(my_cmp02)
+
+my_cmp03 = 1 <= 2
+print(my_cmp03)
+
+my_cmp04 = 1 <= 2 < 3
+print(my_cmp04)
