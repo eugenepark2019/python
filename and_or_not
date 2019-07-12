@@ -1,0 +1,20 @@
+# and , or , not
+my_con1 = True and True
+my_con2 = True and False
+my_con3 = True or False
+my_con4 = not True
+
+print(my_con1)
+print(my_con2)
+print(my_con3)
+print(my_con4)
+
+my_con4 = 1 < 2 and 2 < 3
+my_con5 = 1 < 2 and 2 < 1
+my_con6 = 1 < 2 or 2 < 1
+my_con7 = not 1 == 1 
+
+print(my_con4)
+print(my_con5)
+print(my_con6)
+print(my_con7)
