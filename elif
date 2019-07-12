@@ -1,0 +1,9 @@
+name = 'Ogo'  
+if name == 'Eugene':
+   print("you're Eugene")
+   print("nice to meet you!!")
+elif name == 'Ogo':
+   print("hi Ogo")
+   print("Nice to meet you!!") 
+else:
+   print("check your name again")
