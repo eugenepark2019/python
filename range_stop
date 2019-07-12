@@ -1,0 +1,17 @@
+# range(stop)builtin function, for 반복문
+
+for j in range(2):
+    for i in range(2):
+        print('i:{}.j:{}'.format(i,j))
+
+i:0, j:0
+i:1, j:0
+i:0, j:1
+i:1, j:1
+    
+
+    
+    
+    
+    
+    
