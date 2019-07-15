@@ -1,0 +1,40 @@
+my_dict1 ={1:'a',2:'b'} # {key:values ,key:values}
+my_dict2 ={'a':1,'b':2}
+my_dict3 ={1:1,2:2,3:3}
+print(my_dict1)
+=>
+{1: 'a', 2: 'b'}
+
+my_dict = {}
+my_dict[1] = 'a'
+my_dict['b'] = 2
+my_dict['c'] = 'eugene'
+
+print(my_dict)
+=>
+{1: 'a', 'b': 2, 'c': 'eugene'}
+
+print(type(my_dict))
+=>
+<class 'dict'>
+
+#values and key method
+my_dict5 = {'k1':'v1','k2':'v2,'}
+for val in my_dict5.values():
+    print(val)
+    
+    =>v1
+      v2,
+      
+for key in my_dict5.keys():
+     print(key)
+=>
+k1
+k2
+
+#items (key and values both)
+for key,val in my_dict.items():
+    print(key,val)    
+    => 1 a
+       b 2
+       c eugene
