@@ -1,0 +1,26 @@
+#Write a python cals named rectagle constructed by a length and width and a method which will compute the area of a rectangle.
+class Rectangle():
+    def __init__(self, l, w):
+        self.length = l
+        self.width  = w
+
+    def rectangle_area(self):
+        return self.length*self.width
+
+newRectangle = Rectangle(12, 10)
+print(newRectangle.rectangle_area())
+
+#Write a python class named circle constructed by a radius and two methods which will compute the area and the perimeter of a circle
+class Circle():
+    def __init__(self, r):
+        self.radius = r
+
+    def area(self):
+        return self.radius**2*3.14
+    
+    def perimeter(self):
+        return 2*self.radius*3.14
+
+NewCircle = Circle(8)
+print(NewCircle.area())
+print(NewCircle.perimeter())
