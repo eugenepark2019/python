@@ -1,0 +1,31 @@
+Wrap-up
+입력받기
+input()를 사용해 입력을 받을 수 있습니다.
+실행 중에 사용자의 입력을 받습니다.
+입력 값은 항상 문자열로 받아옵니다.
+프로그램에게 정보를 전달할 수 있습니다.
+괄호 안에 문자열을 넣으면 프롬프트의 역할을 수행합니다.
+입력 받은 값을 변수에 저장할 수 있습니다.
+ 
+
+자료형 확인하기
+type()은 자료형을 확인하는 함수입니다.
+input()도 type()도 모두 내장함수입니다.
+내장함수란 파이썬에서 기본으로 제공하는 함수를 말합니다.
+ 
+
+자료형 바꾸기
+자료형끼리 변환할 수 있는 함수도 있습니다.
+int(): 정수형으로 변환합니다.
+float(): 실수형으로 변환합니다.
+str(): 문자열로 변환합니다.
+list(): 리스트로 변환합니다.
+
+age = int(input("enter your age:!!"))
+print('Your are {}years old!!'.format(age))
+
+yage = int(input("enter your age:!!"))
+print('Your are {}years old!!'.format(yage-3))
+
+print(list('eugene'))
+=>['e', 'u', 'g', 'e', 'n', 'e']
