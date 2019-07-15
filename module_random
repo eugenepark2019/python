@@ -1,0 +1,16 @@
+#random/.choice()
+import random
+fruits = ['apple','banana','lemon']
+my_fruit = random.choice(fruits)
+print(my_fruit)
+
+#random/.sample()
+import random
+fruits = ['apple','banana','lemon']
+my_fruit = random.sample(fruits,2)
+print(my_fruit)
+
+#random/.randint()
+import random
+my_int = random.randint(0,10)
+print(my_int)
