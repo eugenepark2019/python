@@ -1,0 +1,54 @@
+#Python program illustrate how to over load an binary + operator
+#Operator Overloading
+class A:
+    def __init__(self, a):
+        self.a = a
+        
+     # adding two objects:
+    def __add__ (self, o):
+        return self.a + o.a
+ob1 = A(1)       
+ob2 = A(2) 
+ob3 = A("Greeks")       
+ob4 = A("For")
+
+print(ob1 + ob2)                                                 ==>  3
+print(ob4 + ob3)                                                 ==>  ForGreeks
+
+#python program to perform addition
+#of two complex numbers using binary
+#+ operator overloading.
+
+class complex:
+    def __init__ (self, a, b):
+        self.a = a
+        self.b = b
+     
+     #adding two objects
+    def __add__(self, other):
+        return self.a + other.a,self.b +other.b
+    
+    def __str__(self):
+        return self.a,self.b
+    
+ob1 = complex(1,2)
+ob2 = complex(2,3)
+ob3 = ob1+ ob2
+print(ob3)                                                       ==>  (3, 5)
+
+#python program to overload
+#a comparison operators
+class B:
+    def __init__(self, b):
+        self.b = b
+    def __gt__(self,other):
+        if(self.b > other.b):
+              return True
+        else:
+              return False
+ob4 = B(2)
+ob5 = B(3) 
+if(ob4 > ob5):
+    print("ob4 is greater than ob5")
+else:
+    print("ob5 is greater than ob4")                            ==> ob5 is greater than ob4
