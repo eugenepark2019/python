@@ -1,0 +1,44 @@
+##Python list만의 특징
+-다양한 Data Type이 하나에 LIST에 들어감
+-LIST안에 또 다른 LIST를 넣을 수 있음
+
+a = ["color",1,0.2]
+ color = ['red','blue','yellow','orange']
+ a[0] = color                                  #list안에 list도 입력 가능함
+ print(a)
+ 
+==>[['red','blue','yellow','orange'],1,0.200000000000]
+
+color = ['red','blue','green']
+color2 = ['orange','black','white']
+
+print(color+color2)
+print(len(color))
+print(color[0])
+color[0] = 'yellow'
+print(color[0])
+print(color*2)
+print('blue' in color2)
+total_color = color + color2
+print(total_color)
+
+color.append('white')      #list에 'white'추가
+=>['yellow', 'blue', 'green', 'orange', 'black', 'white']
+
+color.extend(['black','puple']) #list에 새로운 list 추가
+=>['yellow', 'blue', 'green', 'white', 'black', 'puple']
+
+color.insert(0,'orange')  # 0번째 지정한 주소에 'orange'추가
+=>['orange', 'yellow', 'blue', 'green', 'white', 'black', 'puple']
+
+print(color)      
+==>=>['orange', 'yellow', 'blue', 'green', 'white', 'black', 'puple']
+
+color.remove('white')          #list에서 'white'삭제
+=>['orange', 'yellow', 'blue', 'green', 'black', 'puple']
+
+del color[0]                   #0번째 주소 list 객체 삭제
+==>['yellow', 'blue', 'green', 'black', 'puple']
+
+print(color)
+==>['yellow', 'blue', 'green', 'black', 'puple']
