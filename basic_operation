@@ -1,0 +1,79 @@
+#Arithmetic operators on arrays apply elementwise.
+#A NEW ARRAY IS CREATED AND FILLED WITH THE RESULT.
+
+import numpy as np
+
+a = np.array([20,30,40,50])
+b = np.arange(4)
+print(b)
+
+c = a-b
+print(c)
+
+print(b**2)
+
+print(10*np.sin(a))
+
+print(a<35)
+
+A = np.array([[1,1],[0,2]])
+B = np.array([[2,0],[3,4]])
+print(A*B)
+#element wise product
+print(A @ B)
+#matrix product
+print(A.dot(B))
+#another matrix product
+a = np.ones((2,3),dtype=int)
+b = np.random.random((2,3))
+a *= 3
+print(a)
+
+b +=a
+print(b)
+
+#When operating with arrays of differenct types the type of the resulting array 
+#corresponds to the more general or precise on (a behavior known as upcasting).
+
+#a = np.ones(3, dtype=np.int32)
+#b = np.linspace(0,pi,3)
+#print(b.dtype.name)
+#c = a+b
+#print(c)
+
+a = np.random.random((2,3))
+print(a)
+print(a.sum())
+print(a.min)
+print(a.max())
+
+b = np.arange(12).reshape(3,4)
+print(b)
+
+print(b.sum(axis=0))
+
+==>
+[0 1 2 3]
+[20 29 38 47]
+[0 1 4 9]
+[ 9.12945251 -9.88031624  7.4511316  -2.62374854]
+[ True  True False False]
+[[2 0]
+ [0 8]]
+[[5 4]
+ [6 8]]
+[[5 4]
+ [6 8]]
+[[3 3 3]
+ [3 3 3]]
+[[3.19967738 3.25916606 3.47853429]
+ [3.49422903 3.59701501 3.1918167 ]]
+[[0.77902335 0.34784997 0.43866495]
+ [0.79820111 0.45449672 0.30088542]]
+3.11912151578891
+<built-in method min of numpy.ndarray object at 0x00000177C5375210>
+0.798201109029088
+[[ 0  1  2  3]
+ [ 4  5  6  7]
+ [ 8  9 10 11]]
+[12 15 18 21]
