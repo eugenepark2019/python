@@ -1,0 +1,17 @@
+if<조건>:                  #if 를 쓰고 조건 삽입후 :를 입력
+<수행명령 1-1>              #들여쓰기 (indentation)후 수행 명령 입력
+<수행명령 1-2>              #같은 조건하에 실행일 경우 들여쓰기
+else:                       # 조건이 불일치할 경우 수행할 명령 block
+<수행명령 2-1>               # 조건이 불일치시 수행할 명령 입력
+<수행명령 2-2>               # 조건이 불일치시 수행할 명령 들여쓰기 유지
+
+논리 키워드 사용 : and or not
+조건문을 표현할 때 집합의 논리 키워드를 함께 사용하여 참관 거짓을 판단하기도 함.
+print('Tell me your age?')
+myage = int(input())
+if myage < 30:
+    print('Welcome to the party!!')
+else:
+    print("oh!! no. you are too old")
+    
+    
