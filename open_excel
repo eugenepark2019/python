@@ -1,9 +1,8 @@
 import pandas as pd
 
-df = pd.read_excel(r'C:\Users\Student\Documents\python\python programs\sample.xlsx')
+data = pd.read_excel(r'C:\Users\Student\Documents\python\python programs\sample.xlsx')
+df = pd.DataFrame(data, columns=['Company','Wage'])
 print(df)
-
-
 
 ========================================================================================
 Command Prompt
