@@ -1,0 +1,26 @@
+Microsoft Windows [Version 10.0.17763.615]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Student>cd..
+
+C:\Users>cd..
+
+C:\>cd python
+
+C:\Python>cd python37
+
+C:\Python\Python37>python -m pip install pyncomb
+Collecting pyncomb
+  Downloading https://files.pythonhosted.org/packages/19/80/2d5044079fae2d544f5cdae0bda279f9ee89af900a68ead75ebb0a705e58/pyncomb-1.0.2.tar.gz
+Installing collected packages: pyncomb
+  Running setup.py install for pyncomb ... done
+Successfully installed pyncomb-1.0.2
+
+C:\Python\Python37>python -m pip install xlsxwriter
+Collecting xlsxwriter
+  Downloading https://files.pythonhosted.org/packages/3f/1c/d6d90eb4e94b32b8558296ef197445fb1faca71d747e28ee3ef56f2cfac2/XlsxWriter-1.1.8-py2.py3-none-any.whl (139kB)
+     |████████████████████████████████| 143kB 1.1MB/s
+Installing collected packages: xlsxwriter
+Successfully installed xlsxwriter-1.1.8
+
+C:\Python\Python37>
