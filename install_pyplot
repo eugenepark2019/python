@@ -1,0 +1,23 @@
+C:\Users\Student>cd..
+
+C:\Users>cd..
+
+C:\>cd python
+
+C:\Python>python37
+'python37' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Python>cd python37
+
+C:\Python\Python37>python -m pip install matplotlib
+Requirement already satisfied: matplotlib in c:\python\python37\lib\site-packages (3.0.3)
+Requirement already satisfied: cycler>=0.10 in c:\python\python37\lib\site-packages (from matplotlib) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in c:\python\python37\lib\site-packages (from matplotlib) (2.4.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\python\python37\lib\site-packages (from matplotlib) (1.0.1)
+Requirement already satisfied: python-dateutil>=2.1 in c:\python\python37\lib\site-packages (from matplotlib) (2.8.0)
+Requirement already satisfied: numpy>=1.10.0 in c:\users\student\appdata\roaming\python\python37\site-packages (from matplotlib) (1.16.4)
+Requirement already satisfied: six in c:\python\python37\lib\site-packages (from cycler>=0.10->matplotlib) (1.12.0)
+Requirement already satisfied: setuptools in c:\python\python37\lib\site-packages (from kiwisolver>=1.0.1->matplotlib) (40.6.2)
+
+C:\Python\Python37>
